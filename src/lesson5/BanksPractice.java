@@ -6,11 +6,11 @@ public class BanksPractice {
     public static void main(String[] args) {
         String[] names = {"Jack", "Ann", "Denis", "Andrey", "Nikolay", "Irina", "John"};
         int[] balances = {100, 500, 8432, -99, 12000, -54, 0};
-        /*System.out.println(Arrays.toString(findClientsByBalance(names, balances, -100)));
-        System.out.println(Arrays.toString(findClientsWithNegativeBalance(names, balances)));
+        /*Sys.out.println(Arrays.toString(findClientsByBalance(names, balances, -100)));
+        Sys.out.println(Arrays.toString(findClientsWithNegativeBalance(names, balances)));
 
         depositMoney(names,balances,"Ann",2000);
-        System.out.println(Arrays.toString(balances));*/
+        Sys.out.println(Arrays.toString(balances));*/
 
         withdraw(names,balances,"Denis",100);
         System.out.println(Arrays.toString(balances));
