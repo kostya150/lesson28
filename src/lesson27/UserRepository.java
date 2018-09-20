@@ -1,25 +1,34 @@
-package lesson9.Homework;
+/*package lesson27;
+
+import lesson9.Homework.User;
 
 import java.util.ArrayList;
 
 public class UserRepository {
     private User[] users = new User[10];
 
-    private static ArrayList<Integer> arrayList = new ArrayList<>();
+    ArrayList<User> arrayList = new ArrayList<>();
 
-    public User[] getUsers() {
-        return users;
+    public static void main(String[] args) {
+        User user1 = new User(1, "vasya", "rge");
+
+    }
+
+
+
+   /* public User[] getUsers() {
+        arrayList.get(1);
     }
 
 
     public String[] getUserNames() {
 
-        if (users != null) {
+        if (arrayList != null) {
             int userN = 0;
 
             for (int i = 0; i < users.length; i++) {
                 if (users[i] != null) {
-                    arrayList.add(userN);//userN++
+                    userN++;
                 }
             }
             String[] userNames = new String[userN];
@@ -28,7 +37,7 @@ public class UserRepository {
             for (int i = 0; i < users.length; i++) {
                 if (users[i] != null) {
                     userNames[userN] = users[i].getName();
-                    arrayList.add(userN);//
+                    userN++;
                 }
             }
             return userNames;
@@ -42,14 +51,14 @@ public class UserRepository {
             int userId = 0;
             for (int i = 0; i < users.length; i++) {
                 if (users[i] != null)
-                    arrayList.add(userId);//
+                    userId++;
             }
             long[] userIds = new long[userId];
             userId = 0;
             for (int i = 0; i < users.length; i++) {
                 if (users[i] != null)
                     userIds[userId] = users[i].getId();
-                arrayList.add(userId);//
+                userId++;
             }
             return userIds;
         }
@@ -116,7 +125,7 @@ public class UserRepository {
             }
 
         }
-        return null;
+        arrayList.add(user);
 
 
 
@@ -173,8 +182,10 @@ public class UserRepository {
                     }
                 }
             }
-        }*/
-    }
-}
+        }
+
+
+
+    }*/
 
 
